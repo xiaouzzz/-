@@ -51,10 +51,10 @@ int main(void)
 	USART1_Init(9600);	 //串口初始化为9600
 	NRF24L01_Init();
     NRF24L01_Check_detection();//NRF24L01等待应答
-	Motor_Init();//电机初始化
-	Hcsr04_Init();//超声波初始化
-	Motion_State(OFF);//关闭电机驱动失能
-	RGB_LED_Init();//RGB彩灯初始化
+//	Motor_Init();//电机初始化
+//	Hcsr04_Init();//超声波初始化
+//	Motion_State(OFF);//关闭电机驱动失能
+//	RGB_LED_Init();//RGB彩灯初始化
 	delay_ms(1000);
 	LED=0;
 	while(1)
